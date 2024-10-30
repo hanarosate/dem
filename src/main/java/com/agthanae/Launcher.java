@@ -1,4 +1,4 @@
-package com.agathanae;
+package com.agthanae;
 
 public class Launcher {
     public static void main(String[] args) {
