@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Button?>
-<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.agthanae.SecondaryController">
-    <children>
-        <Label text="Secondary View" />
-        <Button fx:id="secondaryButton" text="Switch to Primary View" onAction="#switchToPrimary" />
-    </children>
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-    </padding>
-</VBox>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#e1a8d4" layoutX="112.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Escola Agathanae">
+         <font>
+            <Font name="SWItalt" size="35.0" />
+         </font>
+      </Text>
+      <Text fill="#e1a8d4" layoutX="211.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadrastado de Notas" wrappingWidth="177.30380249023438">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text fill="#e1a6d8" layoutX="91.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1° Bimestre :">
+         <font>
+            <Font name="SWItal" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#e1a6d8" layoutX="89.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2° Bimestre :">
+         <font>
+            <Font name="SWItal" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#e1a6d8" layoutX="89.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3° Bimestre :">
+         <font>
+            <Font name="SWItal" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#e1a6d8" layoutX="89.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4° Bimestre :">
+         <font>
+            <Font name="SWItal" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nota1" layoutX="255.0" layoutY="117.0" />
+      <TextField fx:id="nota2" layoutX="255.0" layoutY="157.0" />
+      <TextField fx:id="nota3" layoutX="255.0" layoutY="206.0" />
+      <TextField fx:id="nota4" layoutX="255.0" layoutY="248.0" />
+      <Button fx:id="botaoCadNotas" layoutX="220.0" layoutY="318.0" mnemonicParsing="false" onAction="#CadNotas" text="Cadrastar Notas" textFill="#b280aa">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
