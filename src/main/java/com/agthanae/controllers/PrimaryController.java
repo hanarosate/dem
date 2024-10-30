@@ -2,6 +2,8 @@ package com.agthanae.controllers;
 
 import java.io.IOException;
 import java.util.Date;
+
+import com.agthanae.App;
 import com.agthanae.controllers.FileController;
 import com.agthanae.models.Aluno;
 
@@ -42,6 +44,10 @@ public class PrimaryController {
             System.out.println("Erro em salvar aluno");
             e.printStackTrace();
         }
+
+
+        //Ir para outra tela
+        App.setRoot("secondary");
     }
 
 }
