@@ -4,4 +4,5 @@ module com.agthanae {
 
     opens com.agthanae to javafx.fxml;
     exports com.agthanae;
+    exports com.agthanae.controllers;
 }
