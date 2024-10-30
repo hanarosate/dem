@@ -1,24 +1,16 @@
-
-public void AddAluno (Aluno aluno){
-    File arq = new File("C:\\Users\\Aluno\\Nova Pasta\\demo\\src\\main\\java\\com\a\gthanae\\Alunos.txt");
-    FileWriter fileWriter = new FileWriter(arq, true);
-    try(FileWriter fw = new FileWriter("Alunos.txt", true);
-        PrintWriter pw = new PrintWriter(fw)) {
-        pw.print(aluno);
-        System.out.println("Aluno Adicionado");
-    } catch (IOExcepion e){
-        e.printStackTrace();
-    }
-}
-
-public String  LerAluno(){
-    StringBuilder aluno = new StringBuilder();
-    try(BufferedReader reader = new BufferedReader(new FileReader("Alunos.txt"))) {
-        String line;
-        while((line = reader.readLine()) != null) {
-            aluno.append(line).append("\n");
-        }
-    } catch (IOExcepion e){
-        e.printStackTrace();
-    }
-}
+alub fgws
+q1342
+setg
+asegtfsee
+asegtfsee
+#
+4
+5
+8
+6
+%
+q   qt
+23543
+asgfvsd
+szdgs
+@
