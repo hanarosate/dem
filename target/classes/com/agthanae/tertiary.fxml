@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.agthanae.controllers.TertiaryController">
+   <children>
+      <Text fill="#e1a8d4" layoutX="112.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Escola Agathanae">
+         <font>
+            <Font name="SWItalt" size="35.0" />
+         </font>
+      </Text>
+      <Text fill="#e1a8d4" layoutX="211.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alunos Cadrastados" wrappingWidth="177.30380249023438">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text fill="#e1a6d8" layoutX="129.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome">
+         <font>
+            <Font name="SWItal" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#e1a6d8" layoutX="276.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B1">
+         <font>
+            <Font name="SWItal" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#e1a6d8" layoutX="320.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B2">
+         <font>
+            <Font name="SWItal" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#e1a6d8" layoutX="366.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B3">
+         <font>
+            <Font name="SWItal" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#e1a6d8" layoutX="414.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B4">
+         <font>
+            <Font name="SWItal" size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="textAreaAlunosNotas" editable="false" layoutX="30.0" layoutY="144.0" prefHeight="239.0" prefWidth="530.0" wrapText="true" />
+      <Text fill="#e1a6d8" layoutX="475.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Média">
+         <font>
+            <Font name="SWItal" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

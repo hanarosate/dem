@@ -17,7 +17,10 @@ import javafx.scene.control.TextField;
 
 public class PrimaryController {
     @FXML
-    private Button botaoCadAluno;
+    private Button botaoAdicionarNotas;
+
+    @FXML
+    private Button botaocadrastarAluno;
 
     @FXML
     private TextField textFieldCpf;
@@ -64,14 +67,24 @@ public class PrimaryController {
         FileController fc = new FileController();
         try {
             fc.escreverAluno(aluno);
+            System.out.println("\n    !!  Aluno cadrastado com sucesso    !!\n");
         } catch (IOException e) {
             // TODO Auto-generated catch block
-            System.out.println("Erro em salvar aluno");
+            System.out.println("Erro em salvar aluno" + e.getMessage());
             e.printStackTrace();
         }
 
+
         // Ir para outra tela
+        App.setRoot("tertiary");
+    }
+
+    @FXML
+    void adicionarNotas(ActionEvent event) throws Exception {
+        
+        cadastrarAluno(event);
         App.setRoot("secondary");
+
     }
 
 }

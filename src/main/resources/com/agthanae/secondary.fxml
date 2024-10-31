@@ -6,8 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.agthanae.controllers.SecundaryController">
    <children>
       <Text fill="#e1a8d4" layoutX="112.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Escola Agathanae">
          <font>
@@ -39,11 +38,11 @@
             <Font name="SWItal" size="18.0" />
          </font>
       </Text>
-      <TextField fx:id="nota1" layoutX="255.0" layoutY="117.0" />
-      <TextField fx:id="nota2" layoutX="255.0" layoutY="157.0" />
-      <TextField fx:id="nota3" layoutX="255.0" layoutY="206.0" />
-      <TextField fx:id="nota4" layoutX="255.0" layoutY="248.0" />
-      <Button fx:id="botaoCadNotas" layoutX="220.0" layoutY="318.0" mnemonicParsing="false" onAction="#CadNotas" text="Cadrastar Notas" textFill="#b280aa">
+      <TextField fx:id="textFieldnota1" layoutX="255.0" layoutY="117.0" />
+      <TextField fx:id="textFieldnota2" layoutX="255.0" layoutY="157.0" />
+      <TextField fx:id="textFieldnota3" layoutX="255.0" layoutY="206.0" />
+      <TextField fx:id="textFieldnota4" layoutX="255.0" layoutY="248.0" />
+      <Button fx:id="botaoCadrastarNotas" layoutX="220.0" layoutY="318.0" mnemonicParsing="false" onAction="#cadrastarNotas" text="Cadrastar Notas" textFill="#b280aa">
          <font>
             <Font size="19.0" />
          </font>

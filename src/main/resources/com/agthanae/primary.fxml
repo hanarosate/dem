@@ -7,19 +7,19 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.agthanae.controllers.PrimaryController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.agthanae.controllers.PrimaryController">
    <children>
-      <Text fill="#e1a8d4" layoutX="179.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Escola Agathanae" wrappingWidth="282.6835174560547">
+      <Text fill="#e1a8d4" layoutX="105.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Escola Agathanae" wrappingWidth="390.6835174560547">
          <font>
             <Font name="SWItalt" size="35.0" />
          </font>
       </Text>
-      <Text fill="#e1a6d8" layoutX="215.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cadastro de aluno">
+      <Text fill="#e1a6d8" layoutX="205.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cadastro de aluno">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text fill="#e1a6d8" layoutX="136.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome">
+      <Text fill="#e1a6d8" layoutX="134.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome">
          <font>
             <Font name="SWItalt" size="14.0" />
          </font>
@@ -29,12 +29,12 @@
             <Font name="SWItalt" size="14.0" />
          </font>
       </Text>
-      <Text fill="#e1a6d8" layoutX="139.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+      <Text fill="#e1a6d8" layoutX="123.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
          <font>
             <Font name="SWItalt" size="14.0" />
          </font>
       </Text>
-      <Text fill="#e1a6d8" layoutX="51.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="data de nascimento">
+      <Text fill="#e1a6d8" layoutX="14.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="data de nascimento">
          <font>
             <Font name="SWItalt" size="14.0" />
          </font>
@@ -42,11 +42,16 @@
       <TextField fx:id="textFieldNome" layoutX="183.0" layoutY="91.0" prefHeight="25.0" prefWidth="330.0" />
       <TextField fx:id="textFieldCpf" layoutX="183.0" layoutY="126.0" prefHeight="25.0" prefWidth="330.0" />
       <TextField fx:id="textFieldEmail" layoutX="183.0" layoutY="163.0" prefHeight="25.0" prefWidth="330.0" />
-      <Button fx:id="botaoCadAluno" layoutX="247.0" layoutY="283.0" mnemonicParsing="false" onAction="#cadastrarAluno" text="cadastrar aluno" textFill="#e1a6d8">
+      <Button fx:id="botaoAdicionarNotas" layoutX="247.0" layoutY="283.0" mnemonicParsing="false" onAction="#adicionarNotas" text="Adicionar Notas" textFill="#e1a6d8">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
       <DatePicker fx:id="datePickerNascimento" layoutX="183.0" layoutY="196.0" onAction="#verificarData" prefHeight="25.0" prefWidth="330.0" />
+      <Button fx:id="botaocadrastarAluno" layoutX="247.0" layoutY="331.0" mnemonicParsing="false" onAction="#cadastrarAluno" text="Cadrastar Aluno" textFill="#e1a6d8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
    </children>
 </Pane>
