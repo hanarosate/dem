@@ -1,6 +1,8 @@
 package com.agthanae.controllers;
 
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.Date;
 
 import com.agthanae.App;
@@ -10,6 +12,7 @@ import com.agthanae.models.Aluno;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 
 public class PrimaryController {
@@ -20,20 +23,42 @@ public class PrimaryController {
     private TextField textFieldCpf;
 
     @FXML
-    private TextField dtNascimento;
+    private DatePicker datePickerNascimento;
 
     @FXML
-    private TextField email;
+    private TextField textFieldEmail;
 
     @FXML
     private TextField textFieldNome;
 
-   
+    // tentativa de criar uma verificador da datePickerNascimento. Deu ruim!!
     @FXML
-    public void cadastrarAluno(ActionEvent event) {
+    void verificarData(ActionEvent event) {
+
+        /*
+         * LocalDate dataNascimento = datePickerNascimento.getValue();
+         * 
+         * if (dataNascimento == null) {
+         * mensagemErro.setText("Por favor, selecione uma data.");
+         * } else if (dataNascimento.isAfter(LocalDate.now())) {
+         * mensagemErro.setText("A data de nascimento não pode ser futura.");
+         * } else {
+         * mensagemErro.setText("Data de nascimento válida!");
+         * // Lógica adicional, se necessário
+         * }
+         */
+
+    }
+
+    @FXML
+    public void cadastrarAluno(ActionEvent event) throws Exception {
+
+        LocalDate ld = datePickerNascimento.getValue();
+
+        Date nascimento = Date.from(ld.atStartOfDay(ZoneId.systemDefault()).toInstant());
         String nome = textFieldNome.getText();
         String cpf = textFieldCpf.getText();
-
+        String email = textFieldEmail.getText();
 
         Aluno aluno = new Aluno(nome, cpf, email, nascimento);
         FileController fc = new FileController();
@@ -45,8 +70,7 @@ public class PrimaryController {
             e.printStackTrace();
         }
 
-
-        //Ir para outra tela
+        // Ir para outra tela
         App.setRoot("secondary");
     }
 
