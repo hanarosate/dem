@@ -1,2 +1,13 @@
-Agatha Leticia| 123.456.789-09  agathalele@gmail.com  Fri Oct 12 00:00:00 BRT 2007
-10.0 | 4.0 | 5.0 | 9.0|7.0
+Agatha Leticia| 123.321.123-12 agathaleticia@gmail.com  Mon Aug 13 00:00:00 BRT 2007
+10.0 | 10.0 | 10.0 | 10.0 | 10.0
+Cecilia Amelie| 233.322.321-23 ceciliaamelie@gmail.com  Wed Feb 25 00:00:00 BRT 2009
+Helena Yasmin| 657.768.89-09 helenayasmin@gmail.com  Sat May 19 00:00:00 BRT 2007
+10.0 | 10.0 | 10.0 | 10.0 | 10.0
+Hanae Rosa| 764.876.873-98 hanaerosa@gmail.com  Wed Sep 19 00:00:00 BRT 2007
+Ana Carolina| 124.546.666-99 anacarolina@gmail.com  Fri Feb 22 00:00:00 BRT 2008
+10.0 | 10.0 | 10.0 | 10.0 | 10.0
+Dalila Selene| 222.222.333-09 dalilaselene@gmail.com  Thu Apr 24 00:00:00 BRT 2008
+Maria Antonela| 234.435.546-99 mariaantonela@gmail.com  Sat May 26 00:00:00 BRT 1990
+10.0 | 10.0 | 10.0 | 10.0 | 10.0
+Giovana Carol| 145.478.159-99 giovanacarol@gmail.com  Tue May 05 00:00:00 BRT 1992
+10.0 | 10.0 | 10.0 | 5.0 | 8.75

@@ -5,11 +5,11 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.agthanae.controllers.TertiaryController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.agthanae.controllers.TertiaryController">
    <children>
-      <Text fill="#e1a8d4" layoutX="112.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Escola Agathanae">
+      <Text fill="#e1a8d4" layoutX="164.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Escola Agathanae" textAlignment="CENTER">
          <font>
-            <Font name="SWItalt" size="35.0" />
+            <Font name="Gabriola" size="52.0" />
          </font>
       </Text>
       <Text fill="#e1a8d4" layoutX="211.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alunos Cadrastados" wrappingWidth="177.30380249023438">
@@ -17,33 +17,36 @@
             <Font size="19.0" />
          </font>
       </Text>
-      <Text fill="#e1a6d8" layoutX="129.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome">
+      <Text fill="#e1a6d8" layoutX="131.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome">
          <font>
             <Font name="SWItal" size="18.0" />
          </font>
       </Text>
-      <Text fill="#e1a6d8" layoutX="276.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B1">
+      <Text fill="#e1a6d8" layoutX="274.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B1">
          <font>
             <Font name="SWItal" size="18.0" />
          </font>
       </Text>
-      <Text fill="#e1a6d8" layoutX="320.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B2">
+      <Text fill="#e1a6d8" layoutX="320.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B2">
          <font>
             <Font name="SWItal" size="18.0" />
          </font>
       </Text>
-      <Text fill="#e1a6d8" layoutX="366.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B3">
+      <Text fill="#e1a6d8" layoutX="367.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B3">
          <font>
             <Font name="SWItal" size="18.0" />
          </font>
       </Text>
-      <Text fill="#e1a6d8" layoutX="414.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B4">
+      <Text fill="#e1a6d8" layoutX="413.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B4">
          <font>
             <Font name="SWItal" size="18.0" />
          </font>
       </Text>
-      <TextArea fx:id="textAreaAlunosNotas" editable="false" layoutX="30.0" layoutY="144.0" prefHeight="239.0" prefWidth="530.0" wrapText="true" />
-      <Text fill="#e1a6d8" layoutX="475.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Média">
+      <TextArea fx:id="textAreaAlunosNotas" editable="false" layoutX="30.0" layoutY="132.0" prefHeight="251.0" prefWidth="530.0" wrapText="true">
+         <font>
+            <Font size="22.0" />
+         </font></TextArea>
+      <Text fill="#e1a6d8" layoutX="471.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Média">
          <font>
             <Font name="SWItal" size="18.0" />
          </font>

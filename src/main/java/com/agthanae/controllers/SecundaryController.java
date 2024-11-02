@@ -50,12 +50,12 @@ public class SecundaryController {
         }
         try {
             App.setRoot("tertiary");
+
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-            System.out.println("\n"+e.getMessage()+"\n");
+            System.out.println("\n" + e.getMessage() + "\n");
         }
     }
-
 
 }
